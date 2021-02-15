@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Estrutura FrontEnd de Navegação</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+	<script src="js/jquery.mCustomScrollbar.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<header>
+		<p>Dicas para quem está iniciando no mundo da programação</p>
+	</header>
+	<section class="container">
+		<div class="show_sidebar"></div>
+		<nav class="sidebar mCustomScrollbar">
+			<div class="close_sidebar">fechar</div>
+			<a href="#" class="title_expand"><i class="iten_circ"></i>Apresentação</a>
+			<span class="content_expandable">
+				<a href="#inicio">Início</a>
+			</span>
+			<a href="#" class="title_expand"><i class="iten_circ"></i>Algoritmo</a>
+			<span class="content_expandable">
+				<a href="#algoritmo">Algoritmo</a>
+			</span>
+			<a href="#" class="title_expand"><i class="iten_circ"></i>BackEnd</a>
+			<span class="content_expandable">
+				<a href="#backend">BackEnd</a>
+			</span>
+			<a href="#" class="title_expand"><i class="iten_circ"></i>FrontEnd</a>
+			<span class="content_expandable">
+				<a href="#frontend">FrontEnd</a>
+			</span>
+			<a href="#" class="title_expand"><i class="iten_circ"></i>Android</a>
+			<span class="content_expandable">
+				<a href="#android">Android</a>
+			</span>
+			<a href="#" class="title_expand"><i class="iten_circ"></i>CSS</a>
+			<span  class="content_expandable">
+				<a href="#oqueecss">CSS</a>
+			</span>
+		</nav>
+		<article class="content"> 
+			<h1>O início de tudo...</h1>
+			<img src="img/eu.jpg" alt="Foto de Denise" width="200px" height="200px"/>
+			<p id="inicio">Sou estudante do curso de Tecnologia em Sistemas para Internet. Apaixonada por tecnologia!
+				Entrei na faculdade em 2016, aos 46 anos de idade. No primeiro momento, achei que seria difícil seguir em frente com um mundo
+				tão diferente do que eu estava acostumada... Um curso onde predomina o mundo dos homens jovens. Eu tinha duas opções naquele
+				momento: encarar e fazer o curso dos meus sonhos para me tornar uma Desenvolvedora de Sistemas ou desistir... Bem, eu encarei
+				e continuo encarando as situações adversas e estou prestes a me formar.
+			</p>
+
+			<p>Para desenvolver um sistema web ou um aplicativo, é preciso ter disciplina, dedicação e persistência. Elabore um programa de estudo
+				com pelo menos duas horas por dia. Durante as horas de estudo, não se distráia com whatsapp ou qualquer outra rede social. Mantenha
+				o foco! Este pequeno projeto, é apenas uma estrutura frontend de navegação, que fiz com o objetivo de estudar o básico da programação
+				Web: HTML, CSS e JavaScript.
+			</p>
+
+			<h1>O que é Algoritmo?</h1>
+			<p id="algoritmo">Já parou para pensar como um computador "entende" o que você quer que ele faça?
+				O computador apenas segue as instruções que são passadas por você. 
+				Algoritmo é um conjunto de regras que fornecem uma sequência de operações capazes de resolver um problema específico.
+				Uma receita de bolo é um algoritmo, por exemplo. Na receita, você tem os ingredientes e no algoritmo de um programa você terá
+				as variáveis. Na receita de bolo você terá o passo-a-passo da maneira de fazer, assim também acontecerá no algoritmo de um
+				programa de computador.
+				</p>
+				<p>É preciso fazer exercícios constantemente. Seja disciplinado(a)!
+				</p>
+				
+			</p>
+
+			<h1>O que é BackEnd?</h1>
+			<p id="backend">É a parte do sistema responsável pelas regras de negócio, webservices e APIs.
+				O Backend está por trás da aplicação, fazendo a ponte entre os dados que são
+				enviados através do navegador rumo ao banco de dados e vice-versa, aplicando
+				as regras de negócio.
+			</p>
+			<p>
+				O BackEnd é a parte que não está sendo vista, é no backend por exemplo
+				que será definido como o servidor irá se comunicar com o banco de dados.
+				Algumas linguagens de backend são:
+				<ul>
+					<li>PHP</li>
+					<li>Java</li>
+					<li>Python</li>
+				</ul>
+			</p>
+			<h1>O que é FrontEnd?</h1>
+			<p id="frontend">O frontend é o responsável por permitir que o usuário consiga visualizar, clicar ou
+				ter algum tipo de interação com o sistema. O desenvolvedor frontend deve garantir
+				que o conteúdo do site apareça corretamente em qualquer tamanho de tela. Todo detalhe
+				é muito importante, pois o usuário precisa ter uma experiência que seja agradável, tanto
+				no visual como na usabilidade.
+			</p>
+			
+			<p> Para iniciar como desenvolvedor frontend, é preciso aprender
+				HTML, CSS e JavaScript.
+			</p>
+			<h1>Android</h1>
+			<p  id="android">O Android é projetado principalmente para dispositivos móveis, com tela sensível ao toque
+				para que o usuário possa manipular objetos virtuais, assim como um teclado virtual. O 
+				código do sistema operacional é disponibilizado pelo Google sob licença de código aberto.
+				O Android é muito popular entre empresas de tecnologia que buscam um software pronto e personalizável
+				para dispositivos de alta tecnologia.
+			</p>
+
+			<h1>O que é CSS?</h1>
+			<p id="oqueecss">O CSS é usado para estilizar elementos escritos em HTML, separa
+				o conteúdo da representação visual do site. Com o CSS é possível alterar
+				a cor do fundo da página, a cor do texto, o espaçamento entre parágrafos,
+				também é possível criar tabelas, layouts, ajustar imagens para as telas, enfim,
+				o CSS deixa o visual bem agradável.
+			</p>
+			<p>
+				O CSS é uma ferramenta potente que possibilita criar funcionalidades ao invés de usar
+				JavaScript ou outra linguagem mais pesada. Usando moderadamente, pode viabilizar uma 
+				ótima experiência tanto ao desenvolvedor como aos usuários.
+			</p>
+		</article>
+	</section>
+	<footer>Denise M. L. de Castro - Estudante de Tecnologia em Sistemas para Internet</p>
+	</footer>
+</body>
+</html>
